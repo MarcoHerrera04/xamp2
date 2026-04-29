@@ -3,10 +3,10 @@ version: "3.8"
 services:
   agenda:
     build: .
-    container_name: agenda_dev
+    container_name: agenda_prod
     restart: always
     ports:
-      - "8080:3000"
+      - "8088:3000"
     volumes:
       - datos:/app/datos
 
