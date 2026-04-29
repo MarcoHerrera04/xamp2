@@ -1,6 +1,6 @@
 #!/bin/bash
 echo 'Bajamos repositorio actualizado...'
-git pull origin main
+git pull origin master
 
 echo 'Detenemos contenedores...'
 docker-compose down
