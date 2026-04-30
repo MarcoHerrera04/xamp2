@@ -6,7 +6,7 @@ services:
     container_name: agenda_prod
     restart: always
     ports:
-      - "8088:3000"
+      - "8080:3000"
     volumes:
       - datos:/app/datos
 
